@@ -1,3 +1,19 @@
 {
-    "github-enterprise.uri": "https://github.com/upyounger49/pythonone"
+    // 资源管理器中隐藏的文件/目录
+    "files.exclude": {
+        // Python 虚拟环境
+        "**/.venv": true,
+        "**/venv": true,
+        // Python 字节码缓存
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        // 工具缓存
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/*.log": true,
+        // 敏感与系统目录
+        "**/.env": true,
+        "**/.git": true
+    }
 }
